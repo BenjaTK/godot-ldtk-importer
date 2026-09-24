@@ -1,24 +1,23 @@
 [remap]
 
-importer="ldtk.import"
-type="PackedScene"
+importer="ldtk.import.resource"
+type="Resource"
 uid="uid://xxx8r8vuswa"
-path="res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.scn"
+path="res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.res"
 
 [deps]
 
-files=["res://examples/gridvania/tilesets/tileset_16px.res", "res://examples/gridvania/levels/Level_0.scn", "res://examples/gridvania/levels/Level_1.scn", "res://examples/gridvania/levels/Level_2.scn", "res://examples/gridvania/levels/Level_3.scn", "res://examples/gridvania/levels/Level_4.scn", "res://examples/gridvania/levels/Level_5.scn", "res://examples/gridvania/levels/Level_0.scn", "res://examples/gridvania/levels/Level_1.scn", "res://examples/gridvania/levels/Level_2.scn", "res://examples/gridvania/levels/Level_3.scn", "res://examples/gridvania/levels/Level_4.scn", "res://examples/gridvania/levels/Level_5.scn", "res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.scn"]
+files=["res://examples/gridvania/tilesets/tileset_16px.res", "res://examples/gridvania/levels/Level_0.scn", "res://examples/gridvania/levels/Level_1.scn", "res://examples/gridvania/levels/Level_2.scn", "res://examples/gridvania/levels/Level_3.scn", "res://examples/gridvania/levels/Level_4.scn", "res://examples/gridvania/levels/Level_5.scn", "res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.res"]
 
 source_file="res://examples/gridvania/example_gridvania.ldtk"
-dest_files=["res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.scn", "res://examples/gridvania/tilesets/tileset_16px.res", "res://examples/gridvania/levels/Level_0.scn", "res://examples/gridvania/levels/Level_1.scn", "res://examples/gridvania/levels/Level_2.scn", "res://examples/gridvania/levels/Level_3.scn", "res://examples/gridvania/levels/Level_4.scn", "res://examples/gridvania/levels/Level_5.scn", "res://examples/gridvania/levels/Level_0.scn", "res://examples/gridvania/levels/Level_1.scn", "res://examples/gridvania/levels/Level_2.scn", "res://examples/gridvania/levels/Level_3.scn", "res://examples/gridvania/levels/Level_4.scn", "res://examples/gridvania/levels/Level_5.scn", "res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.scn"]
+dest_files=["res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.res", "res://examples/gridvania/tilesets/tileset_16px.res", "res://examples/gridvania/levels/Level_0.scn", "res://examples/gridvania/levels/Level_1.scn", "res://examples/gridvania/levels/Level_2.scn", "res://examples/gridvania/levels/Level_3.scn", "res://examples/gridvania/levels/Level_4.scn", "res://examples/gridvania/levels/Level_5.scn", "res://.godot/imported/example_gridvania.ldtk-2c2bfddda6d6598db19492e019e8ae49.res"]
 
 [params]
 
-World=""
+World & Level=""
+save_as_scenes=0
+save_extension=0
 group_world_layers=false
-Level=""
-pack_levels=true
-level_save_extension=0
 Layer=""
 layers_always_visible=false
 Tileset=""
@@ -33,6 +32,7 @@ Post Import=""
 tileset_post_import="res://addons/ldtk-importer/post-import/tileset-template.gd"
 entities_post_import="res://addons/ldtk-importer/post-import/entity-template.gd"
 level_post_import="res://addons/ldtk-importer/post-import/level-template.gd"
+world_resource_post_import=""
 world_post_import="res://addons/ldtk-importer/post-import/world-template.gd"
 Debug=""
 force_tileset_reimport=false

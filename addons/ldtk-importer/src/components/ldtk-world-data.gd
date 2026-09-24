@@ -6,5 +6,5 @@ extends Resource
 @export var iid: String
 @export var rect: Rect2i
 @export var levels: Array[LDTKLevelData]
-
+@export var scene: PackedScene
 

@@ -7,9 +7,7 @@ var config = ConfigFile.new()
 
 
 func _enter_tree() -> void:
-	ldtk_plugin = preload("uid://coq6t2u1iw731").new()
 	ldtk_resource_plugin = preload("uid://cwaa5sj46jitk").new()
-	add_import_plugin(ldtk_plugin)
 	add_import_plugin(ldtk_resource_plugin)
 
 	var config = ConfigFile.new()
@@ -25,7 +23,5 @@ func _enter_tree() -> void:
 
 
 func _exit_tree() -> void:
-	remove_import_plugin(ldtk_plugin)
 	remove_import_plugin(ldtk_resource_plugin)
-	ldtk_plugin = null
 	ldtk_resource_plugin = null
